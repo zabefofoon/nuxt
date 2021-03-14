@@ -1,0 +1,27 @@
+.no-background:before {
+  background-color: transparent !important;
+}
+
+/* .headline {
+  margin-bottom: 1em;
+}
+
+.title {
+  margin-bottom: 0.8em;
+} */
+
+.code-box {
+  padding: 1em 0.5em;
+  margin: 1em 0;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.contour {
+  margin-bottom: 1em;
+}
+
+.fixed {
+  width: 100%;
+  position: sticky;
+  top: 76px;
+}

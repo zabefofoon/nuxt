@@ -1,0 +1,7 @@
+1. 다운로드
+https://nuxtjs.org/docs/2.x/get-started/installation
+
+먼저 nodeJs를 다운받자
+
+npm install nuxt
+npm create nuxt-app <prj-name>

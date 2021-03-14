@@ -1,0 +1,62 @@
+Project: 웹 포트폴리오 사이트
+
+-기획: 웹제작에 대한 실력과 고민을 보여줄 수 있는 사이트를 만들자.
+--요건
+1. Balsamiq(WireFrame Prototype)
+1-1. 발사믹 사용법
+
+2. 예시
+2-1. 화면
+2-2. 코드
+
+3. 설명
+3-1. 블로그에 Html, Css, Js, Vue 코드
+3-2. 프로젝트 설계
+3-3. Youtube 설명(+)
+3-4. UI 용어 설명
+*구글 Material.io의 용어를 따름
+* https://material.io/design/platform-guidance/android-bars.html#status-bar
+-Status Bar
+
+-App Bar
+.상단 앱바: 현재 화면과 관련된 정보와 작업 표시(Navigation Bar의 역할)
+.하단 앱바: 탐색/검색 및 주요 작업 표시(Tool Bar의 역할)
+
+-Android Navigation Bar
+
+-Navigation Bar(기능적 의미)
+항해(Navigate)의 기능을 가진 Bar
+
+-Tool Bar(기능적 의미)
+특정 화면에서 가능한 행동(Action)들을 제시한다.
+
+-Tab Bar(형식적 의미)
+탭을 통하여 Navigate를 유도하는 Bar
+*IOS에서의 HIG에서는 탭바를 통한 네비게이션을 지향한다고 하더라
+*IOS에서는 하단에 Tab Bar를 배치하는 형태의 GUI를 추구
+*안드로이드 에서는 상단에 Tab Bar를 배치하는 형태의 GUI
+
+-디자인: vuetify Ui를 활용한 Meterial Design
+--요건
+1. 모바일 우선의 반응형 웹
+
+-Front End(Client)
+--요건
+1. Vue3 & Vuetify
+2. PWA
+3. Nuxt(SSR)
+
+-Back End(Server)
+--요건
+1. Express(NodeJs)
+2. MongoDB
+3. RestApi
+
+-Hosting
+--요건
+1. Heroku
+2. Google & Naver 웹마스터 등록
+3. Github를 통해 Open Project로 진행
+
+*참고
+https://brunch.co.kr/@flatdesign/2
