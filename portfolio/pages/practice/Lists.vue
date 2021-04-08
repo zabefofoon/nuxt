@@ -284,7 +284,7 @@ export default {
     return {
       group1: 0,
       group2: [],
-      group3: 0
+      group3: []
     };
   }
 };

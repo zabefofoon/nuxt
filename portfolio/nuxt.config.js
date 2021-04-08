@@ -1,4 +1,4 @@
-import colors from "vuetify/es5/util/colors";
+import colors from "vuetify/es5/util/colors"
 
 export default {
   // Global page headers (https://go.nuxtjs.dev/config-head)
@@ -6,11 +6,11 @@ export default {
     titleTemplate: "%s - portfolio",
     title: "portfolio",
     meta: [
-      { charset: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: "" }
+      {charset: "utf-8"},
+      {name: "viewport", content: "width=device-width, initial-scale=1"},
+      {hid: "description", name: "description", content: ""}
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
+    link: [{rel: "icon", type: "image/x-icon", href: "/favicon.ico"}]
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
@@ -33,7 +33,9 @@ export default {
     // https://go.nuxtjs.dev/axios
     "@nuxtjs/axios",
     // https://go.nuxtjs.dev/pwa
-    "@nuxtjs/pwa"
+    "@nuxtjs/pwa",
+    // https://www.npmjs.com/package/vuetify-dialog
+    'vuetify-dialog/nuxt',
   ],
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
@@ -58,6 +60,20 @@ export default {
     }
   },
 
+  vuetifyDialog: {
+    property: "$dialog",
+    confirm: {},
+    warning: {},
+    error: {},
+    prompt: {}
+  },
+
   // Build Configuration (https://go.nuxtjs.dev/config-build)
-  build: {}
-};
+  build: {},
+
+  loading: {
+    color: "orange",
+    height: "2px",
+    continuous: true
+  }
+}

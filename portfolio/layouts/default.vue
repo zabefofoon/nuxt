@@ -1,6 +1,6 @@
 <template>
   <v-app id="inspire">
-    <Header />
+    <Header/>
     <v-main>
       <v-container>
         <v-row>
@@ -12,8 +12,7 @@
                   :key="index"
                   :to="item.to"
                   nuxt
-                  exact
-                >
+                  exact>
                   {{ item.title }}
                 </v-list-item>
               </v-list>
@@ -22,7 +21,7 @@
           <v-col cols="8">
             <v-sheet elevation="1" rounded="lg">
               <v-container>
-                <nuxt />
+                <nuxt/>
               </v-container>
             </v-sheet>
           </v-col>
@@ -33,7 +32,8 @@
 </template>
 
 <script>
-import Header from "./components/Header.vue";
+import Header from "./components/Header.vue"
+
 export default {
   components: {
     Header
@@ -64,10 +64,20 @@ export default {
         {
           title: "Layout",
           to: "/practice/layout",
-          component: "practice/layouts.vue"
+          component: "practice/Layout.vue"
+        },
+        {
+          title: "Loading",
+          to: "/practice/loading",
+          component: "practice/Loading.vue"
+        },
+        {
+          title: "Notification",
+          to: "/practice/notification",
+          component: "practice/Notification.vue"
         }
       ]
-    };
+    }
   }
-};
+}
 </script>
